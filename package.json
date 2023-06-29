@@ -1,0 +1,22 @@
+{
+  "name": "slot-machine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcontreras3/Slot-Machine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gcontreras3/Slot-Machine/issues"
+  },
+  "homepage": "https://github.com/gcontreras3/Slot-Machine#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
