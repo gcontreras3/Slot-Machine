@@ -77,12 +77,15 @@ const spin = () => {
             symbols.push(symbol);
         }
     }
-    
+
     const reels = [[], [], []];
     for (let i = 0; i < COLS; i++){
         const reelSymbols = [...symbols];
         for (let j = 0; j < ROWS; j++){
-            const selectedSymbol = 
+            const randomIndex = Math.floor(Math.random() * reelSymbols.length);
+            const selectedSymbol = reelSymbols[randomIndex];
+            reels[i].push(selectedSymbol)
+            reelSymbols.splice(randomIndex, 1);
         }
     }
     console.log(symbols)
